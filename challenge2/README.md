@@ -14,9 +14,9 @@ pip install -r requirements.txt
 python cumulativesales.py
 python totalsales.py
 python totalsalesbycontrey.py
+sqlite3 SQLs\challenge2x.db < SQLs\newtables.sql
 sqlite3 SQLs\challenge2x.db < SQLs\insertnewuser.sql
-
-
+sqlite3 SQLs\challenge2x.db < SQLs\totalsales.sql
 
 ```
 
